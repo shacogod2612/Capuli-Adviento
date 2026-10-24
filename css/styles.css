@@ -714,6 +714,13 @@ footer {
     flex-direction: column;
     gap: 12px;
   }
+
+    .btn-secondary {
+    background-color: var(--secondary);
+    color: var(--primary);
+    border: 1.5px solid var(--primary);
+    }
+
   /* 2. GRID DE PRODUCTOS (2 TARJETAS POR FILA) */
   .grid-cards {
     display: grid;
@@ -757,8 +764,8 @@ footer {
   .slide-overlay {
     background: linear-gradient(
       180deg, 
-      rgba(253, 251, 247, 0.445) 0%, 
-      rgba(253, 251, 247, 0.445) 100%
+      rgba(255, 255, 254, 0.829) 0%, 
+      rgba(255, 255, 254, 0.829 ) 100%
     );
     padding: 20px 16px;
     align-items: center;
