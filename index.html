@@ -20,23 +20,20 @@
     <a href="#reserva" class="btn-small">Reservar Ahora</a>
   </header>
 
-  <!-- HERO SECTION -->
-  <section class="hero">
+    <section class="hero">
+    <div class="hero-overlay"></div>
     <div class="container hero-content">
-      <div class="hero-text">
+        <div class="hero-text">
         <span class="badge">Edición Limitada 2026</span>
         <h1>Capulí Adviento</h1>
-        <p class="subtitle">El primer calendario de adviento marinero. 12 puertas, 12 sorpresas, una misma pasión.</p>
+        <p class="subtitle">Por bailarinas, para bailarinas.</p>
         <div class="hero-buttons">
-          <a href="#reserva" class="btn btn-primary">Comprar Ahora</a>
-          <a href="#detalles" class="btn btn-secondary">Ver Contenido</a>
+            <a href="#reserva" class="btn btn-primary">Comprar Ahora</a>
+            <a href="#detalles" class="btn btn-secondary">Ver Contenido</a>
         </div>
-      </div>
-      <div class="hero-image">
-        <img src="img/banner.jpeg" alt="Capulí Adviento Box">
-      </div>
+        </div>
     </div>
-  </section>
+    </section>
 
   <!-- GRID DE 12 DÍAS -->
   <section id="detalles" class="features">
@@ -49,7 +46,6 @@
       <div class="grid-cards">
         <!-- Día 1 -->
         <div class="card">
-          <span class="day-badge">Día 01</span>
           <div class="card-img">
             <img src="img/productos/panito.jpeg" alt="Dia 1">
           </div>
@@ -59,7 +55,6 @@
 
         <!-- Día 2 -->
         <div class="card">
-          <span class="day-badge">Día 02</span>
           <div class="card-img">
             <img src="img/productos/pestaña.jpeg" alt="Dia 2">
           </div>
@@ -69,7 +64,6 @@
 
         <!-- Día 3 -->
         <div class="card">
-          <span class="day-badge">Día 03</span>
           <div class="card-img">
             <img src="img/productos/esponja.jpeg" alt="Dia 3">
           </div>
@@ -79,7 +73,6 @@
 
         <!-- Día 4 -->
         <div class="card">
-          <span class="day-badge">Día 04</span>
           <div class="card-img">
             <img src="img/productos/medias.jpeg" alt="Dia 4">
           </div>
@@ -89,7 +82,6 @@
 
         <!-- Día 5 -->
         <div class="card">
-          <span class="day-badge">Día 05</span>
           <div class="card-img">
             <img src="img/productos/aretes.jpeg" alt="Dia 5">
           </div>
@@ -99,7 +91,6 @@
 
         <!-- Día 6 -->
         <div class="card">
-          <span class="day-badge">Día 06</span>
           <div class="card-img">
             <img src="img/productos/espejos.jpeg" alt="Dia 6">
           </div>
@@ -109,7 +100,6 @@
 
         <!-- Día 7 -->
         <div class="card">
-          <span class="day-badge">Día 07</span>
           <div class="card-img">
             <img src="img/productos/pulsera.jpeg" alt="Dia 7">
           </div>
@@ -120,7 +110,6 @@
 
         <!-- Día 8 -->
         <div class="card">
-          <span class="day-badge">Día 08</span>
           <div class="card-img">
             <img src="img/productos/labial.jpeg" alt="Dia 8">
           </div>
@@ -130,7 +119,6 @@
 
         <!-- Día 9 -->
         <div class="card">
-          <span class="day-badge">Día 09</span>
           <div class="card-img">
             <img src="img/productos/gancho.jpeg" alt="Dia 9">
           </div>
@@ -140,7 +128,6 @@
 
         <!-- Día 10 -->
         <div class="card">
-          <span class="day-badge">Día 10</span>
           <div class="card-img">
             <img src="img/productos/ganchitos.jpeg" alt="Dia 10">
           </div>
@@ -150,7 +137,6 @@
 
         <!-- Día 11 -->
         <div class="card">
-          <span class="day-badge">Día 11</span>
           <div class="card-img">
             <img src="img/productos/ligas.jpeg" alt="Dia 11">
           </div>
@@ -160,16 +146,12 @@
 
         <!-- Día 12 -->
         <div class="card">
-          <span class="day-badge">Día 12</span>
           <div class="card-img">
             <img src="img/productos/tocado.jpeg" alt="Dia 12">
           </div>
           <h3>Tocado de Flores</h3>
           <p>Renueva tu tocado y luce una combinación de flores que complemente tu estilo.</p>
         </div>
-
-      
-    
     </div>
   </section>
 
@@ -192,7 +174,7 @@
     <div class="container">
       <div class="checkout-card">
         <h2>Reserva tu Capulí Adviento</h2>
-        <p class="checkout-subtitle">Asegura tu caja de edición limitada antes de que se agoten.</p>
+        <p class="checkout-subtitle">Asegura tu Calendario de edición limitada antes de que se agoten.</p>
 
         <form id="orderForm" class="form">
           <div class="form-group">
@@ -297,6 +279,22 @@
 
   <!-- Script independiente -->
     <script src="js/script.js"></script>
-  
+  <!-- MODAL PARA VER PRODUCTO EN GRANDE -->
+<div id="imageModal" class="modal">
+  <div class="modal-content">
+    <button class="modal-close" id="modalClose" aria-label="Cerrar">&times;</button>
+    <div class="modal-body">
+      <div class="modal-img-container">
+        <img id="modalImg" src="" alt="Detalle del producto">
+      </div>
+      <div class="modal-info">
+        <span class="day-badge" id="modalBadge">Día 01</span>
+        <h2 id="modalTitle">Título del Producto</h2>
+        <p id="modalDescription">Descripción completa del producto.</p>
+        <a href="#reserva" class="btn btn-primary" id="modalReserveBtn">Reservar Ahora</a>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
