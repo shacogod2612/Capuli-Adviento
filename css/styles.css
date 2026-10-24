@@ -697,7 +697,7 @@ footer {
   }
 
   .hero-overlay {
-    background: rgba(0, 0, 0, 0.6); /* Oscurecido uniforme en móviles */
+    background: rgba(92, 92, 92, 0.6); /* Oscurecido uniforme en móviles */
   }
 
   .hero-text {
@@ -764,8 +764,8 @@ footer {
   .slide-overlay {
     background: linear-gradient(
       180deg, 
-      rgba(255, 255, 254, 0.829) 0%, 
-      rgba(255, 255, 254, 0.829 ) 100%
+      rgba(202, 202, 195, 0.377) 0%, 
+      rgba(202, 202, 195, 0.377) 100%
     );
     padding: 20px 16px;
     align-items: center;
