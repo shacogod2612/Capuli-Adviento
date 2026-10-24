@@ -1,300 +1,703 @@
+
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-PE">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Capulí Adviento - Edición Exclusiva</title>
-  <!-- Google Fonts para tipografía elegante -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Capulí Adviento | Caja de Regalos para Bailarinas</title>
+  <meta
+    name="description"
+    content="Descubre Capulí Adviento, una edición exclusiva con accesorios de belleza y detalles especiales para bailarinas de marinera peruana. Reserva la tuya."
+  >
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Capulí Adviento">
+  <meta name="theme-color" content="#7A1C32">
+
+  <link
+    rel="canonical"
+    href="https://shacogod2612.github.io/Capuli-Adviento/"
+  >
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_PE">
+  <meta property="og:site_name" content="Capulí Adviento">
+  <meta
+    property="og:title"
+    content="Capulí Adviento | Un detalle especial para bailarinas"
+  >
+  <meta
+    property="og:description"
+    content="Accesorios de belleza y detalles seleccionados para acompañarte en cada ensayo y presentación de marinera."
+  >
+  <meta
+    property="og:url"
+    content="https://shacogod2612.github.io/Capuli-Adviento/"
+  >
+  <meta
+    property="og:image"
+    content="https://shacogod2612.github.io/Capuli-Adviento/img/banner.jpeg"
+  >
+  <meta
+    property="og:image:alt"
+    content="Colección Capulí Adviento"
+  >
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta
+    name="twitter:title"
+    content="Capulí Adviento | Edición Exclusiva"
+  >
+  <meta
+    name="twitter:description"
+    content="Descubre accesorios y detalles especiales para bailarinas de marinera peruana."
+  >
+  <meta
+    name="twitter:image"
+    content="https://shacogod2612.github.io/Capuli-Adviento/img/banner.jpeg"
+  >
+
+  <!-- RENDIMIENTO Y TIPOGRAFÍAS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <!-- Estilos independientes -->
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Marcellus&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  >
+
+  <!-- ESTILOS -->
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- FAVICON: AÑADIR CUANDO TENGAS EL ARCHIVO -->
+  <link rel="icon" type="img/jfif" href="img/favicon.jfif">
 </head>
+
 <body>
 
-  <!-- HEADER / NAVBAR -->
+  <!-- CABECERA -->
   <header class="navbar">
-    <div class="logo">Capulí Adviento</div>
-    <a href="#reserva" class="btn-small">Reservar Ahora</a>
+    <a class="logo" href="#inicio" aria-label="Capulí Adviento, inicio">
+      Capulí Adviento
+    </a>
+
+    <a href="#reserva" class="btn-small">
+      Reservar ahora
+    </a>
   </header>
 
-    <section class="hero">
-    <div class="hero-overlay"></div>
+  <main>
+
+    <!-- PORTADA PRINCIPAL -->
+   <section class="hero" id="inicio" aria-labelledby="hero-title">
+    <div class="hero-overlay" aria-hidden="true"></div>
+
     <div class="container hero-content">
         <div class="hero-text">
-        <span class="badge">Edición Limitada 2026</span>
-        <h1>Capulí Adviento</h1>
-        <p class="subtitle">Por bailarinas, para bailarinas.</p>
-        <div class="hero-buttons">
-            <a href="#reserva" class="btn btn-primary">Comprar Ahora</a>
-            <a href="#detalles" class="btn btn-secondary">Ver Contenido</a>
+        <span class="badge">Edición limitada 2026</span>
+
+        <h1 id="hero-title">Capulí Adviento</h1>
+
+        <p class="subtitle">
+            Por bailarinas, para bailarinas.
+        </p>
         </div>
-        </div>
+    </div>
+
+    <div class="hero-buttons">
+        <a href="#reserva" class="btn btn-primary">
+        Comprar ahora
+        </a>
+
+        <a href="#detalles" class="btn btn-secondary">
+        Ver contenido
+        </a>
     </div>
     </section>
+    <!-- CATÁLOGO DE PRODUCTOS -->
+    <section
+      id="detalles"
+      class="features"
+      aria-labelledby="features-title"
+    >
+      <div class="container">
 
-  <!-- GRID DE 12 DÍAS -->
-  <section id="detalles" class="features">
-    <div class="container">
-      <div class="section-title">
-        <h2>Un recorrido por nuestra pasión</h2>
-        <p>Descubre lo que incluye cada uno de los 12 días especiales</p>
+        <div class="section-title">
+          <h2 id="features-title">
+            Un recorrido por nuestra pasión
+          </h2>
+
+          <p>
+            Descubre los accesorios y detalles que forman
+            parte de nuestra colección.
+          </p>
+        </div>
+
+        <div class="grid-cards">
+
+          <!-- PRODUCTO 1 -->
+          <article class="card">
+            <div class="card-img">
+              <img
+                src="img/productos/panito.jpeg"
+                alt="Pañuelo bordado para bailar marinera"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+
+            <h3>Pañuelo bordado</h3>
+
+            <p>
+              El detalle perfecto para lucir impecable
+              en concursos y presentaciones.
+            </p>
+          </article>
+
+          <!-- PRODUCTO 2 -->
+          <article class="card">
+            <div class="card-img">
+              <img
+                src="img/productos/pestaña.jpeg"
+                alt="Pestañas postizas para maquillaje"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+
+            <h3>Pestaña postiza</h3>
+
+            <p>
+              Realza tu mirada y prepárate para brillar
+              en la pista.
+            </p>
+          </article>
+
+          <!-- PRODUCTO 3 -->
+          <article class="card">
+            <div class="card-img">
+              <img
+                src="img/productos/esponja.jpeg"
+                alt="Esponja para aplicar maquillaje"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+
+            <h3>Esponjita de maquillaje</h3>
+
+            <p>
+              El complemento ideal para perfeccionar
+              tu maquillaje antes de bailar.
+            </p>
+          </article>
+
+          <!-- PRODUCTO 4 -->
+          <article class="card">
+            <div class="card-img">
+              <img
+                src="img/productos/medias.jpeg"
+                alt="Medias antideslizantes para ensayos de baile"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+
+            <h3>Medias de ensayo antideslizantes</h3>
+
+            <p>
+              Renueva tus básicos de práctica y prepárate
+              para darlo todo en cada ensayo.
+            </p>
+          </article>
+
+          <!-- PRODUCTO 5 -->
+          <article class="card">
+            <div class="card-img">
+              <img
+                src="img/productos/aretes.jpeg"
+                alt="Aretes decorativos en tonos dorados y plateados"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+
+            <h3>Par de aretes</h3>
+
+            <p>
+              ¿Plateados o dorados? Elige los que más
+              combinen contigo.
+            </p>
+          </article>
+
+          <!-- PRODUCTO 6 -->
+          <article class="card">
+            <div class="card-img">
+              <img
+                src="img/productos/espejos.jpeg"
+                alt="Espejo de mano para retocar el maquillaje"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+
+            <h3>Espejo de mano</h3>
+
+            <p>
+              Ideal para esos minutos antes de salir
+              a la pista.
+            </p>
+          </article>
+
+          <!-- PRODUCTO 7 -->
+          <article class="card">
+            <div class="card-img">
+              <img
+                src="img/productos/pulsera.jpeg"
+                alt="Pulsera de ojo turco"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+
+            <h3>Pulsera de ojo turco</h3>
+
+            <p>
+              Un pequeño amuleto para acompañarte
+              en cada ensayo y concurso.
+            </p>
+          </article>
+
+          <!-- PRODUCTO 8 -->
+          <article class="card">
+            <div class="card-img">
+              <img
+                src="img/productos/labial.jpeg"
+                alt="Labial Latina de Jarusa"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+
+            <h3>Labial Latina - Jarusa</h3>
+
+            <p>
+              Dale protagonismo a tu sonrisa y luce
+              un maquillaje lleno de color.
+            </p>
+          </article>
+
+          <!-- PRODUCTO 9 -->
+          <article class="card">
+            <div class="card-img">
+              <img
+                src="img/productos/gancho.jpeg"
+                alt="Gancho para el cabello con forma de flor"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+
+            <h3>Gancho de flor</h3>
+
+            <p>
+              Incorpora un detalle floral en tu cabello
+              para tus ensayos y presentaciones.
+            </p>
+          </article>
+
+          <!-- PRODUCTO 10 -->
+          <article class="card">
+            <div class="card-img">
+              <img
+                src="img/productos/ganchitos.jpeg"
+                alt="Horquillas para sujetar el peinado"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+
+            <h3>Horquillas para el cabello</h3>
+
+            <p>
+              Un básico imprescindible para mantener
+              tu peinado en su lugar.
+            </p>
+          </article>
+
+          <!-- PRODUCTO 11 -->
+          <article class="card">
+            <div class="card-img">
+              <img
+                src="img/productos/ligas.jpeg"
+                alt="Ligas para sujetar el cabello"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+
+            <h3>Ligas para peinado</h3>
+
+            <p>
+              Renueva tus básicos y ten siempre
+              ligas a la mano.
+            </p>
+          </article>
+
+          <!-- PRODUCTO 12 -->
+          <article class="card">
+            <div class="card-img">
+              <img
+                src="img/productos/tocado.jpeg"
+                alt="Tocado de flores para el cabello"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+
+            <h3>Tocado de flores</h3>
+
+            <p>
+              Luce una combinación de flores
+              que complemente tu estilo.
+            </p>
+          </article>
+
+        </div>
       </div>
+    </section>
 
-      <div class="grid-cards">
-        <!-- Día 1 -->
-        <div class="card">
-          <div class="card-img">
-            <img src="img/productos/panito.jpeg" alt="Dia 1">
-          </div>
-          <h3>Pañuelo Bordado</h3>
-          <p>El detalle perfecto para lucir impecable en concurso y presentaciones.</p>
+    <!-- HISTORIA DE LA MARCA -->
+    <section class="story" aria-labelledby="story-title">
+      <div class="container story-wrapper">
+
+        <div class="story-img">
+          <img
+            src="img/banner.jpeg"
+            alt="Presentación de la colección Capulí Adviento"
+            loading="lazy"
+            decoding="async"
+          >
         </div>
 
-        <!-- Día 2 -->
-        <div class="card">
-          <div class="card-img">
-            <img src="img/productos/pestaña.jpeg" alt="Dia 2">
-          </div>
-          <h3>Pestaña Postiza</h3>
-          <p>Realza tu mirada y prepárate para brillar en la pista.</p>
+        <div class="story-text">
+          <h2 id="story-title">
+            ¿Por qué creamos Capulí Adviento?
+          </h2>
+
+          <p>
+            Queríamos capturar el arte, la elegancia y la emoción
+            de cada movimiento en un formato lleno de expectativa.
+            Capulí Adviento nace para homenajear el esfuerzo,
+            la pasión y los detalles de cada bailarina.
+          </p>
+
+          <p>
+            Cada caja cuenta una historia y cada pieza
+            está seleccionada con dedicación para acompañar
+            tu camino.
+          </p>
         </div>
 
-        <!-- Día 3 -->
-        <div class="card">
-          <div class="card-img">
-            <img src="img/productos/esponja.jpeg" alt="Dia 3">
-          </div>
-          <h3>Esponjita de Maquillaje</h3>
-          <p>El complemento ideal para perfeccionar tu maquillaje antes de bailar.</p>
-        </div>
-
-        <!-- Día 4 -->
-        <div class="card">
-          <div class="card-img">
-            <img src="img/productos/medias.jpeg" alt="Dia 4">
-          </div>
-          <h3>Medias de Ensayo Antideslizante</h3>
-          <p>Renueva tus básicos de practica y prepárate paa darlo todo en cada ensayo.</p>
-        </div>
-
-        <!-- Día 5 -->
-        <div class="card">
-          <div class="card-img">
-            <img src="img/productos/aretes.jpeg" alt="Dia 5">
-          </div>
-          <h3>Par de Aretes</h3>
-          <p>¿Plateado o Dorado? Elije los que mas combinen contigo.</p>
-        </div>
-
-        <!-- Día 6 -->
-        <div class="card">
-          <div class="card-img">
-            <img src="img/productos/espejos.jpeg" alt="Dia 6">
-          </div>
-          <h3>Espejo de Mano</h3>
-          <p>Para esos minutos antes de salir a la pista.</p>
-        </div>
-
-        <!-- Día 7 -->
-        <div class="card">
-          <div class="card-img">
-            <img src="img/productos/pulsera.jpeg" alt="Dia 7">
-          </div>
-          <h3>Pulsera de Ojo Turco</h3>
-          <p>Un pequeño amuleto para acompañarte en cada ensayo y concurso, con la intención
-            de atraer protección y buena suerte.</p>
-        </div>
-
-        <!-- Día 8 -->
-        <div class="card">
-          <div class="card-img">
-            <img src="img/productos/labial.jpeg" alt="Dia 8">
-          </div>
-          <h3>Labial Latina - Jarusa</h3>
-          <p>Dale protagonismo a tu sonrisa y luce un maquillaje lleno de color.</p>
-        </div>
-
-        <!-- Día 9 -->
-        <div class="card">
-          <div class="card-img">
-            <img src="img/productos/gancho.jpeg" alt="Dia 9">
-          </div>
-          <h3>Gancho de Flor</h3>
-          <p>Incorpora un nuevo detalle floral en ru cabello para tus ensayos.</p>
-        </div>
-
-        <!-- Día 10 -->
-        <div class="card">
-          <div class="card-img">
-            <img src="img/productos/ganchitos.jpeg" alt="Dia 10">
-          </div>
-          <h3>Hoquillas</h3>
-          <p>Siempre nos hacen falta en los peores momentos.</p>
-        </div>
-
-        <!-- Día 11 -->
-        <div class="card">
-          <div class="card-img">
-            <img src="img/productos/ligas.jpeg" alt="Dia 11">
-          </div>
-          <h3>Ligas para Peinado</h3>
-          <p>Renueva tus básicos de peinado y ten siempre ligas a la mano.</p>
-        </div>
-
-        <!-- Día 12 -->
-        <div class="card">
-          <div class="card-img">
-            <img src="img/productos/tocado.jpeg" alt="Dia 12">
-          </div>
-          <h3>Tocado de Flores</h3>
-          <p>Renueva tu tocado y luce una combinación de flores que complemente tu estilo.</p>
-        </div>
-    </div>
-  </section>
-
-  <!-- SECCIÓN NARRATIVA -->
-  <section class="story">
-    <div class="container story-wrapper">
-      <div class="story-img">
-        <img src="img/banner.jpeg" alt="Historia Capulí">
       </div>
-      <div class="story-text">
-        <h2>¿Por qué creamos Capulí Adviento?</h2>
-        <p>Queríamos capturar el arte, la elegancia y la emoción de cada movimiento en un formato lleno de expectativa. Capulí Adviento nace para homenajear el esfuerzo, la pasión y los detalles de cada bailarina.</p>
-        <p>Cada caja cuenta una historia y cada pieza está seleccionada con dedicación para acompañar tu camino.</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- SECCIÓN DE RESERVA / FORMULARIO -->
-  <section id="reserva" class="checkout">
-    <div class="container">
-      <div class="checkout-card">
-        <h2>Reserva tu Capulí Adviento</h2>
-        <p class="checkout-subtitle">Asegura tu Calendario de edición limitada antes de que se agoten.</p>
+    <!-- FORMULARIO DE RESERVA -->
+    <section
+      id="reserva"
+      class="checkout"
+      aria-labelledby="checkout-title"
+    >
+      <div class="container">
+        <div class="checkout-card">
 
-        <form id="orderForm" class="form">
-          <div class="form-group">
-            <label for="fullName">Nombre Completo</label>
-            <input type="text" id="fullName" placeholder="Ej. Ana García" required>
-          </div>
+          <h2 id="checkout-title">
+            Reserva tu Capulí Adviento
+          </h2>
 
-          <div class="form-row">
+          <p class="checkout-subtitle">
+            Asegura tu calendario de edición limitada
+            antes de que se agote.
+          </p>
+
+          <form id="orderForm" class="form">
+
             <div class="form-group">
-              <label for="phone">Teléfono / WhatsApp</label>
-              <input type="tel" id="phone" placeholder="+51 999 999 999" required>
+              <label for="fullName">Nombre completo</label>
+
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                placeholder="Ej. Ana García"
+                autocomplete="name"
+                required
+              >
             </div>
+
+            <div class="form-row">
+
+              <div class="form-group">
+                <label for="phone">Teléfono / WhatsApp</label>
+
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="+51 999 999 999"
+                  autocomplete="tel"
+                  required
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="quantity">Cantidad</label>
+
+                <select
+                  id="quantity"
+                  name="quantity"
+                  required
+                >
+                  <option value="1">1 unidad</option>
+                  <option value="2">2 unidades</option>
+                  <option value="3">3 unidades</option>
+                </select>
+              </div>
+
+            </div>
+
             <div class="form-group">
-              <label for="quantity">Cantidad</label>
-              <select id="quantity">
-                <option value="1">1 Unidad</option>
-                <option value="2">2 Unidades</option>
-                <option value="3">3 Unidades</option>
-              </select>
+              <label for="address">Dirección de envío</label>
+
+              <input
+                type="text"
+                id="address"
+                name="address"
+                placeholder="Av. Principal 123, Lima"
+                autocomplete="street-address"
+                required
+              >
             </div>
-          </div>
 
-          <div class="form-group">
-            <label for="address">Dirección de Envío</label>
-            <input type="text" id="address" placeholder="Av. Principal 123, Lima" required>
-          </div>
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+            >
+              Confirmar reserva por WhatsApp
+            </button>
 
-          <button type="submit" class="btn btn-primary btn-block">Confirmar Reserva</button>
-        </form>
-      </div>
-    </div>
-  </section>
-<section class="baner">
-  <div class="flexbox-baner">
-    
-    <!-- Slide 1 -->
-    <div class="slide">
-      <img src="img/baner1.jfif" alt="Banner 1">
-      <div class="slide-overlay">
-        <span class="badge">Edición Limitada 2026</span>
-        <h1>Capulí Adviento</h1>
-        <p>12 días de sorpresas, tradición y pasión en cada detalle.</p>
-        <a href="#reserva" class="btn-banner">Reservar Ahora</a>
-      </div>
-    </div>
-
-    <!-- Slide 2 -->
-    <div class="slide">
-      <img src="img/baner2.jfif" alt="Banner 2">
-      <div class="slide-overlay">
-        <span class="badge">Colección Exclusiva</span>
-        <h1>Detalles Especiales</h1>
-        <p>Accesorios únicos diseñados para relucir en la pista.</p>
-        <a href="#detalles" class="btn-banner">Ver Colección</a>
-      </div>
-    </div>
-
-    <!-- Slide 3 -->
-    <div class="slide">
-      <img src="img/baner3.jfif" alt="Banner 3">
-      <div class="slide-overlay">
-        <span class="badge">Tradición Marinera</span>
-        <h1>12 Sorpresas Únicas</h1>
-        <p>Vive la emoción de descubrir un regalo cada día.</p>
-        <a href="#reserva" class="btn-banner">Comprar Ahora</a>
-      </div>
-    </div>
-
-    <!-- Slide 4 -->
-    <div class="slide">
-      <img src="img/baner4.jfif" alt="Banner 4">
-      <div class="slide-overlay">
-        <span class="badge">Preventa Disponible</span>
-        <h1>Asegura el Tuyo</h1>
-        <p>Edición limitada disponible hasta agotar stock.</p>
-        <a href="#reserva" class="btn-banner">Reservar Ya</a>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-  <!-- FOOTER -->
-    <footer>
-        <div class="container footer-content">
-            <p>© 2026 Capulí Adviento. Todos los derechos reservados.</p>
-
-            <!-- Sección de Contacto y Redes -->
-            <div class="footer-contact">
-            <span class="contact-title">Contáctanos:</span>
-            <div class="social-links">
-                <a href="https://www.instagram.com/capuli_adviento/" target="_blank" aria-label="Instagram">
-                <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.tiktok.com/@massii819" target="_blank" aria-label="TikTok">
-                <i class="fab fa-tiktok"></i>
-                </a>
-            </div>
-            </div>
+          </form>
         </div>
-    </footer>
-
-  <!-- Script independiente -->
-    <script src="js/script.js"></script>
-  <!-- MODAL PARA VER PRODUCTO EN GRANDE -->
-<div id="imageModal" class="modal">
-  <div class="modal-content">
-    <button class="modal-close" id="modalClose" aria-label="Cerrar">&times;</button>
-    <div class="modal-body">
-      <div class="modal-img-container">
-        <img id="modalImg" src="" alt="Detalle del producto">
       </div>
-      <div class="modal-info">
-        <span class="day-badge" id="modalBadge">Día 01</span>
-        <h2 id="modalTitle">Título del Producto</h2>
-        <p id="modalDescription">Descripción completa del producto.</p>
-        <a href="#reserva" class="btn btn-primary" id="modalReserveBtn">Reservar Ahora</a>
+    </section>
+
+    <!-- BANNERS PROMOCIONALES -->
+    <section class="baner" aria-label="Promociones de Capulí Adviento">
+
+      <div class="flexbox-baner">
+
+        <!-- BANNER 1 -->
+        <div class="slide">
+          <img
+            src="img/baner1.jfif"
+            alt="Colección Capulí Adviento"
+            loading="lazy"
+            decoding="async"
+          >
+
+          <div class="slide-overlay">
+            <span class="badge">Edición limitada 2026</span>
+
+            <h2>Capulí Adviento</h2>
+
+            <p>
+              Sorpresas, tradición y pasión en cada detalle.
+            </p>
+
+            <a href="#reserva" class="btn-banner">
+              Reservar ahora
+            </a>
+          </div>
+        </div>
+
+        <!-- BANNER 2 -->
+        <div class="slide">
+          <img
+            src="img/baner2.jfif"
+            alt="Detalles y accesorios de la colección"
+            loading="lazy"
+            decoding="async"
+          >
+
+          <div class="slide-overlay">
+            <span class="badge">Colección exclusiva</span>
+
+            <h2>Detalles especiales</h2>
+
+            <p>
+              Accesorios seleccionados para lucir en la pista.
+            </p>
+
+            <a href="#detalles" class="btn-banner">
+              Ver colección
+            </a>
+          </div>
+        </div>
+
+        <!-- BANNER 3 -->
+        <div class="slide">
+          <img
+            src="img/baner3.jfif"
+            alt="Accesorios inspirados en la marinera peruana"
+            loading="lazy"
+            decoding="async"
+          >
+
+          <div class="slide-overlay">
+            <span class="badge">Tradición marinera</span>
+
+            <h2>Detalles para bailarinas</h2>
+
+            <p>
+              Vive la emoción de descubrir cada accesorio.
+            </p>
+
+            <a href="#reserva" class="btn-banner">
+              Comprar ahora
+            </a>
+          </div>
+        </div>
+
+        <!-- BANNER 4 -->
+        <div class="slide">
+          <img
+            src="img/baner4.jfif"
+            alt="Presentación de la edición Capulí Adviento"
+            loading="lazy"
+            decoding="async"
+          >
+
+          <div class="slide-overlay">
+            <span class="badge">Preventa disponible</span>
+
+            <h2>Asegura el tuyo</h2>
+
+            <p>
+              Consulta la disponibilidad de la colección.
+            </p>
+
+            <a href="#reserva" class="btn-banner">
+              Reservar ahora
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <div class="container footer-content">
+
+      <p>
+        &copy; 2026 Capulí Adviento.
+        Todos los derechos reservados.
+      </p>
+
+      <div class="footer-contact">
+
+        <span class="contact-title">Contáctanos:</span>
+
+        <nav class="social-links" aria-label="Redes sociales">
+
+          <a
+            href="https://www.instagram.com/capuli_adviento/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram de Capulí Adviento"
+          >
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+
+          <a
+            href="https://www.tiktok.com/@massii819"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="TikTok de Capulí Adviento"
+          >
+            <i class="fab fa-tiktok" aria-hidden="true"></i>
+          </a>
+
+        </nav>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- MODAL DE PRODUCTO -->
+  <div
+    id="imageModal"
+    class="modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modalTitle"
+    aria-describedby="modalDescription"
+    aria-hidden="true"
+  >
+
+    <div class="modal-content">
+
+      <button
+        type="button"
+        class="modal-close"
+        id="modalClose"
+        aria-label="Cerrar detalles del producto"
+      >
+        &times;
+      </button>
+
+      <div class="modal-body">
+
+        <div class="modal-img-container">
+          <img
+            id="modalImg"
+            src=""
+            alt=""
+          >
+        </div>
+
+        <div class="modal-info">
+
+          <h2 id="modalTitle">Título del producto</h2>
+
+          <p id="modalDescription">
+            Descripción del producto.
+          </p>
+
+          <a
+            href="#reserva"
+            class="btn btn-primary"
+            id="modalReserveBtn"
+          >
+            Reservar ahora
+          </a>
+
+        </div>
       </div>
     </div>
   </div>
-</div>
+
+  <!-- JAVASCRIPT -->
+  <script src="js/script.js" defer></script>
+
 </body>
 </html>
