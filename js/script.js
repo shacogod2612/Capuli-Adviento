@@ -92,5 +92,28 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+  // ==========================================
+  // PANTALLA DE CARGA (PRELOADER CON TRANSICIÓN)
+  // ==========================================
+  // Bloqueamos el scroll al iniciar
+  document.body.style.overflow = 'hidden';
+
+  window.addEventListener('load', () => {
+    const preloader = document.getElementById('preloader');
+    
+    if (preloader) {
+      // Margen de tiempo para apreciar el efecto y asegurar renderizado
+      setTimeout(() => {
+        preloader.classList.add('fade-out');
+
+        // Restaurar el scroll justo cuando termina la transición
+        setTimeout(() => {
+          document.body.style.overflow = '';
+        }, 1000);
+      }, 800);
+    } else {
+      document.body.style.overflow = '';
+    }
+  });
 
 });

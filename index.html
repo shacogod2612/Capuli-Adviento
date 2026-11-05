@@ -82,6 +82,14 @@
 
 <body>
 
+  <div id="preloader" class="preloader">
+    <div class="preloader-overlay"></div>
+    <div class="preloader-content">
+      <h1 class="preloader-title">Capulí Adviento</h1>
+      <div class="preloader-spinner"></div>
+    </div>
+  </div>
+
   <!-- CABECERA -->
   <header class="navbar">
     <a class="logo" href="#inicio" aria-label="Capulí Adviento, inicio">
@@ -115,11 +123,47 @@
         <a href="#reserva" class="btn btn-primary">
         Comprar ahora
         </a>
-
-        <a href="#detalles" class="btn btn-secondary">
-        Ver contenido
-        </a>
     </div>
+    </section>
+    <section class="pricing-options" aria-label="Opciones de compra y precios">
+      <div class="container pricing-grid">
+
+        <!-- TARJETA 1: PREVENTA -->
+        <article class="pricing-card pricing-card--soldout">
+          <div class="pricing-badge">PREVENTA (¡AGOTADA!)</div>
+          <div class="pricing-card-bg">
+            <img src="img/calendario_preventa.jpeg" alt="Preventa Capulí Adviento">
+            <div class="pricing-overlay"></div>
+          </div>
+          <div class="pricing-body">
+            <span class="price-tag">S/ 110</span>
+            <div class="pricing-info">
+              <h3>Capulí Adviento</h3>
+            </div>
+            <a href="#detalles" class="btn btn-outline-dark">
+              Ver contenido de Preventa
+            </a>
+          </div>
+        </article>
+
+        <!-- TARJETA 2: PRECIO OFICIAL -->
+        <article class="pricing-card">
+          <div class="pricing-badge">PRECIO OFICIAL</div>
+          <div class="pricing-card-bg">
+            <img src="img/calendario_final.jpeg" alt="Precio Oficial Capulí Adviento">
+            <div class="pricing-overlay"></div>
+          </div>
+          <div class="pricing-body">
+            <span class="price-tag">S/ 130</span>
+            <div class="pricing-extra-badge">
+              ¡INCLUYE SORPRESAS ADICIONALES DENTRO DEL CALENDARIO!
+            </div>
+            <a href="#reserva" class="btn btn-primary btn-block">
+              Comprar ahora al precio oficial
+            </a>
+          </div>
+        </article>
+      </div>
     </section>
     <!-- CATÁLOGO DE PRODUCTOS -->
     <section
